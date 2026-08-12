@@ -1,0 +1,16 @@
+import java.util Scanner
+public class DataUsage {
+    public Stratic void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("usage:");
+        int usage = sc.nextInt();
+    if (usage <=1){
+        System.out.println("low usage:");
+    }if (usage <= 3){
+        System.out.println("medium usage:");
+    }else{
+        System.out.println("high usage:");
+
+    }
+    }
+}
